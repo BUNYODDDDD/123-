@@ -1,0 +1,140 @@
+body {
+  width: 100%;
+  height: 100vh;
+
+  padding: 0;
+  margin: 0;
+
+  background: url("../img/fon.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+/* Навигация */
+.nav__link {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  text-shadow: 2px 1px 3px black;
+  padding: 12px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+
+
+h1 {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 90px;
+  color: white;
+  text-shadow: 3px 1px 1px black;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+h5 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 15px;
+  text-shadow: 2px 1px 1px black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav__link:hover {
+  color: #a0a0a0;
+}
+
+.nav__link {
+  transition: color .2s linear;
+  vertical-align: top;
+  position: relative;
+  margin: 0 15px;
+  display: inline-block;
+}
+
+/* Логотип  */
+.header_logo {
+  font-size: 30px;
+  position: absolute;
+  bottom: 94%;
+  left: 5%;
+  color: white;
+  font-weight: bold;
+  text-shadow: 2px 1px 1px black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav__link:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  display: none;
+}
+
+.nav__link:hover:after {
+  display: block;
+}
+
+.btn {
+  display: inline-block;
+  vertical-align: top;
+  padding: 8px 30px;
+
+  border: 3px solid #fff;
+
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+
+  position: absolute;
+  top: 61%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: background .2s linear, color .2s linear;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.block__header {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  max-width: 950px;
+  left: 500px;
+
+}
+
+.block__text {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  padding: 15px;
+} 
+
+h2 {
+  padding: 20px;
+}
